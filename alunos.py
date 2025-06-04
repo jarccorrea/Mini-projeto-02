@@ -5,7 +5,6 @@ import os
 def cadastrar_aluno():
     global alunos
     nome = input ("Nome de aluno: ")
-
     notas = []
     for i in range (1, 4):
         nota = float(input(f"Digite a {i}ª nota: "))
